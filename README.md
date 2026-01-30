@@ -6,14 +6,14 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ## 📋 Project Overview
-[cite_start]This project implements an end-to-end Machine Learning pipeline designed to forecast Bitcoin (BTC) price trends and generate actionable Buy/Sell/Hold signals[cite: 317, 321].
+This project implements an end-to-end Machine Learning pipeline designed to forecast **Bitcoin (BTC)** price trends and generate actionable **Buy/Sell/Hold** signals.
 
-The system utilizes **XGBoost** for classification, engineered with technical indicators (RSI, MACD, Bollinger Bands) derived from raw Binance OHLCV data. [cite_start]It features a comprehensive backtesting engine and an interactive **Streamlit Dashboard** for visualizing equity growth and trade performance[cite: 319, 322].
+The system utilizes **XGBoost** for classification, engineered with technical indicators (RSI, MACD, Bollinger Bands) derived from raw Binance OHLCV data. It features a comprehensive backtesting engine and an interactive **Streamlit Dashboard** for visualizing equity growth and trade performance.
 
 ### 🚀 Key Results
-* [cite_start]**Win Rate:** 64.44% 
-* [cite_start]**Total Return:** 93.75% (in backtesting) [cite: 322]
-* [cite_start]**Model:** XGBoost Classifier with Sample Weighting for class imbalance[cite: 322].
+* **Win Rate:** 64.44%
+* **Total Return:** 93.75% (in backtesting)
+* **Model:** XGBoost Classifier with Sample Weighting for class imbalance.
 
 ---
 
@@ -40,6 +40,7 @@ AI-Based-Crypto-Currency-Trading-System/
 │   └── paper.py             # Paper trading simulation script
 │
 ├── 5. Documentation/        # Reports & Analysis
-│   └── Final Black Book_merged.pdf  # Full project report and methodology
+│   ├── Final Black Book_merged.pdf  # Full project report and methodology
+│   └── Final Project Report.docx    # Supplementary documentation
 │
-└── requirements.txt         # Project dependencies (formerly lib.txt)
+└── requirements.txt         # Project dependencies

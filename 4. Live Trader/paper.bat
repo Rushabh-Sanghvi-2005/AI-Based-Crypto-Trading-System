@@ -1,0 +1,1 @@
+streamlit run paper.py
